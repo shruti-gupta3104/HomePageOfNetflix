@@ -1,2 +1,2 @@
 # HomePageOfNetflix
-A home page similar to netflix using html and css.
+Homepage similar to netflix Homepage of Netflix: A simple website having similar homepage that of Netflix using using HTML and CSS. Different tags and attributes are used as such section , footer, div, h1,h4,input type and so on. Selectors are used such as class. In css, for display the sections flex , grid value are used. Through flex we can add the block in horizontal manner , by default it is vertically added and that property of display is block. by the help of box model we wrap the every element , basically in this we wrap div element. Adding margins , border, padding, paading top,padding bootom and so on. in this website icon is also added.
