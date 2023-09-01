@@ -1,0 +1,147 @@
+body{
+    background-color: #000000;
+}
+
+
+.home{
+    padding-top: 2px;
+    padding-bottom: 23%;
+    width: 100%;
+    height:100%;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_small.jpg') ;
+    /* filter: blur(5px); */
+    /* -webkit-filter: blur(2px); */ 
+    /* backdrop-filter: 5px; */
+    opacity: 0.4;
+    
+
+
+}
+.homecon{
+    z-index:1;
+    opacity: 1;
+}
+
+
+.netflix{
+    padding-left: 5px;
+    color: rgb(210, 41, 41);
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    /* text-transform:calc(2); */
+}
+.signin{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    font-size: x-large;
+    float: right;
+    text-decoration: none;;
+}
+.signin:hover{
+    background-color: rgb(233, 50, 50);
+    text-decoration: underline;
+}
+.head1{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    /* background-color: #000000; */
+}
+.head2{
+     text-align: center;
+     color:white;
+     /* background-color: #000000; */
+     font-weight: lighter;
+     font-size: x-large;
+     font-family: 'Times New Roman', Times, serif
+}
+input[type="email"]{
+    margin-left: 30%;
+    padding:5px;
+    background-color: black;
+    color:white;
+    font-size: larger;
+}
+.getstarted{
+    margin-left: 2%;
+    padding: 7px;
+
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+}
+.getstarted:hover{
+    font-size: xx-large;
+}
+.hr{
+    padding: 10px;
+    background-color: gray;
+}
+.kids ,.dwnld , .tv , .ew {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.kidsimg{
+    padding: 40px;
+    margin: 10px;
+    height: 50%;
+    width:40%;
+}
+.kidscon{
+    width:40%;
+}
+.dwnld{
+    background-image: url('dwnldImg.jpeg');
+    background-repeat: no-repeat;
+}
+.dwnldimg , .tvimg {
+    margin:40px;
+    margin-left: 70px;
+    padding:10px;
+    padding-left: 50px;
+    
+}
+
+.dwnldcontent , .kidscon, .tvcon , .ewcon{
+    margin: auto;
+    padding:10px;
+    background-color:black;
+}
+.helping{
+    margin: 10px;
+    padding:50px;
+    display:grid;
+    color:white;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}
+
+.quest{
+    grid-column:1/-1;
+}
+.box a{
+    color: white;
+    text-decoration:underline;
+    font-size: large;
+}
+footer{
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+
+}
+
